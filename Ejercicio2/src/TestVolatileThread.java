@@ -1,6 +1,6 @@
 
 public class TestVolatileThread extends Thread {
-	boolean keepRunning = true;
+	volatile boolean  keepRunning = true;
 
     public void run() {
         long count=0;
